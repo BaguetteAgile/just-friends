@@ -9,7 +9,9 @@ ga('create', 'UA-113379848-1', 'auto');
 ga('send', 'pageview');
 
  
-  
+  /*
+animation widget from here: https://github.com/silexlabs/Silex/issues/443
+*/
         
         $(function() {
         
