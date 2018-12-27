@@ -21,6 +21,9 @@ body.compute-body-size-pending {
 .paged-element{
   display: none;
 }
+.silex-published .paged-element{
+  display: block;
+}
 /* default style for silex elements */
 .editable-style{
   position: absolute;
@@ -161,8 +164,13 @@ body.enable-mobile .editable-style.hide-on-desktop {
     border-width: 0 1px 0 0;
     border-color: #8E8E8E;
   }
+  body.enable-mobile.show-mobile-menu {
+    cursor: pointer;
+  }
   body.enable-mobile.show-mobile-menu .silex-pages {
     right: 20%;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   body.enable-mobile .page-element {
     display: block;
